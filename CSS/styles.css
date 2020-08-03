@@ -193,4 +193,25 @@ font-family: 'Antic Didone';font-size: 40px;
 
     color:floralwhite;
 
+
 }
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
+.gi{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/world.jpg") ;
+    background-size:100%;
+
+    color:floralwhite;
+  }
+  .f1{
+    background-color:honeydew;
+  }
+  .f2{
+    background-color:mintcream;
+  }
