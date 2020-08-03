@@ -21,7 +21,7 @@ html {
   max-width: 960px;
 }
 
-.pricing-header {
+.letheader {
   max-width: 700px;
 }
 
@@ -75,4 +75,35 @@ html {
 }
 .dangrek{
 font-family: 'Dangrek';font-size: 22px;
+}
+.sc1{
+  background-color:lightcoral;
+  color:floralwhite;
+}
+.sc2{
+  background-color:PALETURQUOISE;
+  color:black;
+}
+.sc3{
+  background-color:thistle;
+  color:floralwhite;
+}
+.space{
+    padding: 50px 0px 50px 0px;
+}
+.Newsletter{
+  background-image: url("../img/nl.jpg");
+  height:350px;
+  width:100%;
+
+}
+.vac{
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/vacc.jpg");
+
+
+
 }

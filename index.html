@@ -14,6 +14,7 @@
    <link rel="stylesheet" href="CSS\styles.css">
    <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
    <link href='https://fonts.googleapis.com/css?family=Cutive' rel='stylesheet'>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <title>Blitz</title>
 </head>
@@ -31,28 +32,36 @@
       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./aware.html">Awarness</a>
+      <a class="nav-link" href="./globe.html">Global Impact</a>
     </li>
+
     <li class="nav-item">
-      <a class="nav-link disabled" href="#" >Disabled</a>
+      <a class="nav-link " href="./stats.html" >Statistics</a>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Awareness</a>
       <div class="dropdown-menu" aria-labelledby="dropdown01">
-        <a class="dropdown-item" href="./map.html">Map</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
+        <a class="dropdown-item" href="./prev.html">Prevention</a>
+        <a class="dropdown-item" href="./sym.html"> Symptoms</a>
+        <a class="dropdown-item" href="./remed.html">Remedies and Vaccine</a>
       </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./trend.html">Trending</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="./Faq.html" >FAQ</a>
     </li>
   </ul>
 
 </div>
 </nav>
 
-<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+<div id="carouselInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
+
     <div class="carousel-item active" data-interval="10000">
-      <img src="img/bld.jpg" class="d-block w-100" alt="carouselimg1">
+      <img src="img/cor.jpg" class="d-block w-100" alt="carouselimg1">
       <div class="carousel-caption ">
     <div class="cutive"><h3>Scared to step out?</h3></div>
     <p>Click the link below to find out which apps deliver essentials to your door-step</p>
@@ -77,16 +86,16 @@
   <div class="cutive">  <h3>Pandemic across the globe</h3></div>
     <p>Click the link below to view the developments of the pandemic across the globe.</p>
 
-  <a href="./map.html">  <button type="button" class="btn btn-lg btn-block btn-outline-light">Global Updates</button></a>
+  <a href="./globe.html">  <button type="button" class="btn btn-lg btn-block btn-outline-light">Global Updates</button></a>
 
 </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselInterval" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselInterval" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -98,7 +107,7 @@
 
 
 </div>
-
+<div class="row row-content">
 <div class="container">
 <div class="card-deck mb-3 text-center">
   <div class="card mb-4 shadow-sm">
@@ -134,13 +143,131 @@
     </div>
   </div>
 </div>
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+</div>
+</div>
+
+
+<div class="row row-content">
+  <div class="Newsletter">
+<div class="letheader px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
 <h1 class="display-4">Weekly Newsletter</h1>
-<p class="lead">Covid-19 has taken over everyone's life. You can never be completely sure of your safety. But by remaining aware of your surroundings you can surely protect
+<p >Covid-19 has taken over everyone's life. You can never be completely sure of your safety. But by remaining aware of your surroundings you can surely protect
   yourself and your loved ones.Subscribe to our <b>weekly newsletter</b> and remain upto date with the happenings around the world.
 Please fill in your details if you wish to recieve our weekly mails.</p>
+  <button type="button" class="btn btn-lg btn-block btn-dark"><a data-toggle="modal" data-target="#login">Sign up for the newsletter</button>
+</div>
+</div>
+<div id="login" class="modal fade" role="dialog">
+       <div class="modal-dialog modal-lg" role="content">
+           <!-- Modal content-->
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h4 class="modal-title">Sign-Up to our weekly newsletter </h4>
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="modal-body">
+                   <form>
+                       <div class="form-row">
+                           <div class="form-group col-sm-4">
+                             <label for="name" class="col-md-2 col-form-label"> Name</label>
+                                   <input type="text" class="form-control form-control-sm mr-1" id="exampleInputname3" placeholder="Enter Name">
+                           </div>
+                           <div class="form-group col-sm-4">
+                               <label for="name" class="col-md-4 col-form-label"> Email</label>
+                               <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email id">
+                           </div>
+
+                       </div>
+                       <div class="form-row">
+                           <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                           <button type="submit" class="btn btn-primary btn-sm ml-1">Sign up</button></a>
+                       </div>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </div>
+
 
 </div>
+<div class="row row-blank"></div>
+<div class="container">
+  <div class=" mx-auto text-center">
+    <div class="cutive"><h2>Success Stories</h2></div>
+    <p>The pandemic has undoubtedly changed our lives. While some people cope better than the others, it's necessary to keep our hopes up no matter what how hard the situation.<p>
+   <p>Take a minute to look at some civilians who succesfully have fought and recovered from Covid-19 and shared their experience.</p>
+</div></div>
+<div class="row row-blank">
+   <div class="col-sm-12 col-md-10">
+              <div class="card card-body sc1">
+                  <blockquote class="blockquote">
+                      <p class="mb-0">"I am grateful to Allah for giving me a new lease of life.I was under severe mental stress after getting to know about the COVID-19 status. However, the people around me like doctors and nurses all along told me that I will recover and they proved right"
+
+                      <footer class="blockquote-footer">Abdhul Rehman,
+                          <cite title="Source Title">resident of Pipili area in Puri district, who is also a Nizamuddin returnee</cite>
+                      </footer>
+                  </blockquote>
+              </div>
+          </div></div>
+          <div class="row row-blank">
+          <div class="col-sm-12 offset-md-2 col-md-10">
+                     <div class="card card-body sc2">
+                         <blockquote class="blockquote">
+                             <p class="mb-0">"I was really scared when I first saw the results.However, thanks to the Almighty's grace and the good treatment given by the doctors I recovered slowly. It was a tough journey but I'm glad my body could fight for me"
+
+                             <footer class="blockquote-footer">Gopichand Mehra,
+                                 <cite title="Source Title">a 67 year old residing in Bangalore</cite>
+                             </footer>
+                         </blockquote>
+                     </div>
+                 </div></div>
+                 <div class="row row-blank">
+                 <div class="col-sm-12  col-md-10">
+                            <div class="card card-body sc3">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"I was carrying when I tested positive and was more worried about the health of the unborn. But by God's grace my son was born healthy . And thank god for the timely treatment I recovered and returned home safely. Although it was a really rough month , I'm glad we both are safe "
+
+                                    <footer class="blockquote-footer">Reema Sharma,
+                                        <cite title="Source Title">resident of Mumbai</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div></div>
+</div>
+   </div>
+
+   <footer class="footer bg-dark w">
+           <div class="container">
+               <div class="row white">
+                   <div class="col-4 offset-1 col-sm-2">
+                       <h5>Links</h5>
+                       <ul class="list-unstyled">
+                           <li><a href="./index.html">Home</a></li>
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">Menu</a></li>
+                           <li><a href="./contactus.html">Contact</a></li>
+                       </ul>
+                   </div>
+
+                   <div class="col-12 col-sm-4 align-self-center">
+                     <div class="text-center">
+                                          <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                                          <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                                          <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                                          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                          <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                                          <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                                      </div>
+                   </div>
+              </div>
+              <div class="row justify-content-center">
+                   <div class="col-auto">
+                       <p>© Copyright Co-19-Guide</p>
+                   </div>
+              </div>
+           </div>
+       </footer>
 
 
 
