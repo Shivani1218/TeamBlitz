@@ -13,6 +13,7 @@
 
      <link rel="stylesheet" href="CSS\styles.css">
      <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
 
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -22,18 +23,17 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'USA', 'India',  'Italy','Spain','Germany']
-        ['March',    26633,      50,  53473, 36538,21411]
-        ['April',  191854,      1998,   106186,  112306,67874]
-        ['May',  1073794,       37256, 205752, 216756 ,159423]
-        ['June',  1773696,      198370,   232705,239457 ,181525]
+          ['Month', 'USA', 'India','Italy','Spain','Germany'],
+          ['April',  191854,      1998,106186,112306,67874],
+          ['May',  1073794,      37256,205752,216756,159423],
+          ['June',  1773696,       198370,232705,239457,181525],
+          ['July',  2594963,      627168,240450,249310,211077]
 
-          ['July',  2594963,  627168,   240450 , 249310,211077]
 
         ]);
 
         var options = {
-          title: 'Company Performance',
+          title: 'COVID-19 Outbreak',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
@@ -46,7 +46,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="./index.html">Guided</a>
+  <a class="navbar-brand" href="./index.html">CoGuide-19</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -81,11 +81,11 @@
 
   </div>
   </nav>
-<div class="row rowblanck">
+<div class="row rowblanck"></div>
  <div class="container">
-  <h1>Graph of events over 6 months period</h1>
+  <h1 class="antic"><b>Graph of COVID-19 outbreak in the top five impacted countries</b></h1>
  </div>
-</div>
+
 <div class="col-sm-12 offset-md-1 col-md-10">
     <div id="curve_chart" style="width: 900px; height: 500px"></div></div>
     <div class="row row-header">

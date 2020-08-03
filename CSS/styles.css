@@ -107,3 +107,90 @@ font-family: 'Dangrek';font-size: 22px;
 
 
 }
+.homrem{
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/homrem.jpg");
+
+
+
+}
+.per{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/per.jpg");
+color:floralwhite;
+}
+.work{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/work.jpg");
+color:floralwhite;
+}
+.groc{
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/oc.jpg");
+    color:floralwhite;
+
+}
+.soc{
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/soc.jpg");
+    color:floralwhite;
+}
+.out{
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/out.jpg");
+ color:floralwhite;
+
+
+}
+.hom{
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/hom.png");
+    color:floralwhite;
+}
+.antic{
+font-family: 'Antic Didone';font-size: 22px;
+}
+.antich{
+font-family: 'Antic Didone';font-size: 40px;
+}
+
+.amb{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../img/mb.jpg") ;
+    background-size:100%;
+
+    color:floralwhite;
+
+}
+
+.flu{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),url("../img/flu.jpg") ;
+    background-size:100%;
+
+    color:floralwhite;
+
+}
